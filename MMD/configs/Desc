@@ -1,0 +1,4 @@
+Config Files for Depth Estimation : 
+BASE FILES : Has paths for training and testing data, max and min range 
+Normal Files : Have training parameters for networks 
+FT Files : Fine tuning path and parameters
