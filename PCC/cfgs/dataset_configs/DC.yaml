@@ -1,0 +1,5 @@
+NAME: DC_DATA
+CATEGORY_FILE_PATH: data/DC_DATA/DC.json
+N_POINTS: 13300
+PARTIAL_POINTS_PATH: data/DC_DATA/%s/partial/%s/%s.pcd
+COMPLETE_POINTS_PATH: data/DC_DATA/%s/complete/%s/GT_%s.pcd
