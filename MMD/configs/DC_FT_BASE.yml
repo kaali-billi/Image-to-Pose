@@ -1,0 +1,18 @@
+dataset: 
+  name : 'DC_Close'
+  data_path : 'DC_Close/FT/test_img/'
+  mask_path : 'DC_Close/FT/test_msk/'
+  gt_path : 'DC_Close/FT/test_depth/'
+  min_depth  : 0.0
+  max_depth : 35
+  input_height : 224
+  input_width : 224
+
+
+evaluation:
+  data_path : 'DC_Close/Val/images/'
+  mask_path : 'DC_Close/Val/masks/'
+  gt_path : 'DC_Close/Val/depths/'
+  do_kb_crop: False
+  garg_crop: Fasle
+  eigen_crop: False
