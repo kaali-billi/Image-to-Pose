@@ -1,4 +1,4 @@
-bas# PoinTr: Diverse Point Cloud Completion with Geometry-Aware Transformers
+PCC With AdaPoinTr: Diverse Point Cloud Completion (PCC) with Geometry-Aware Transformers
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pointr-diverse-point-cloud-completion-with/point-cloud-completion-on-shapenet)](https://paperswithcode.com/sota/point-cloud-completion-on-shapenet?p=pointr-diverse-point-cloud-completion-with)
 
@@ -226,3 +226,4 @@ If you find our work useful in your research, please consider citing:
   year={2021}
 }
 ```
+
