@@ -30,7 +30,7 @@
 
 
 
-1. MMD needs to be pre-trained on simulated data, and then fine-tuned on real data. Suggested split between Sim data/Real Data : 10,000/800
+1\. MMD needs to be pre-trained on simulated data, and then fine-tuned on real data. Suggested split between Sim data/Real Data : 10,000/800
 
 
 
@@ -47,4 +47,5 @@
 
 
 5\. Pre-processing files provided that converts blender data into a combined set for ***MMD*** and ***PCC Training***
+
 
