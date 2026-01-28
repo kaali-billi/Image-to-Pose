@@ -10,3 +10,4 @@ Quick Data Generation Belnder Setup :
 
 All files need improvement. For Incomplete and complete Point Cloud datasets for PCC, use function create_test_train(), after updating pcd_block() with camera intrinsic properties. Also Install HDRI Sun Aligner (https://github.com/akej74/hdri-sun-aligner) for realistic lighting that aligns itself with provided HDRI's
 
+Earth Horizon HDRI's : https://rendercrate.com/3d/environments/space
