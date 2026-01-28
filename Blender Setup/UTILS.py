@@ -335,7 +335,7 @@ def create_test_train(path_exr, path_npz, N, pcd, object):
     d_map = exr2numpy(path_exr, 1000)
     pc = pcd_block(d_map)
     ort, T = extract_data_PTR(path_npz, object)
-    RSS = orient(ort, T, 2048, pcd)
+    RSS = orient(ort, T, 13300, pcd)
     assert len(RSS.points) != 0
     # o3d.visualization.draw_geometries([RSS,pc,mesh_coord_frame])
     o3d.io.write_point_cloud('PLuM_Python/DC/GT/GT_{}.pcd'.format(str(N).zfill(4)), RSS)
@@ -626,3 +626,4 @@ def generate_gpu_voronoi(image_size=(1000, 1000), num_points=30):
     plt.title("GPU-accelerated Voronoi")
     plt.axis('off')
     plt.show()
+
