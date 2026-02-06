@@ -1,5 +1,0 @@
-PLuM Pose Solver Files 
-
-Lookup.py : Generates reward/lookup file using Model STL file
-LookupVis.py : Visualizing generated Lookup File
-pf_sa_gpu.py : GPU Accelerated implmentation of Improved Plum 
